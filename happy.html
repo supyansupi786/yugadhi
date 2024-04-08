@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Page</title>
+    <style>
+        @keyframes slideIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .photo-container {
+            text-align: center;
+        }
+        .photo {
+            width: 300px;
+            height: auto;
+            margin-bottom: 20px;
+            animation: slideIn 1s ease;
+        }
+        .message {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            animation: slideIn 1s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="photo-container">
+        <img class="photo" src="lv.png" alt="Photo">
+        <div class="message">Happy Yugadhi to my love</div>
+    </div>
+</body>
+</html>
